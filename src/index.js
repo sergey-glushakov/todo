@@ -21,11 +21,13 @@ const SearchPanel =() => {
 };
 
 const App = () => {
-    <div>
-        <AppHeader/>
-        <SearchPanel/>
-        <TodoList/>
-    </div>
+    return (
+        <div>
+            <AppHeader/>
+            <SearchPanel/>
+            <TodoList/>
+        </div>
+    );
 };
 
 ReactDom.render(<App />,document.getElementById('root'));
